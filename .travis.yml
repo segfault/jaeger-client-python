@@ -11,6 +11,9 @@ matrix:
   - python: '2.7'
     env: CROSSDOCK=1
   - python: '3.6'
+    env: COVER=1
+  - python: '3.7'
+    env: CROSSDOCK=1
 
 services:
   - docker
